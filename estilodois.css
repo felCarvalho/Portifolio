@@ -1,0 +1,122 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+img
+{
+    width: 70px;
+    height: 70px;
+}
+
+body
+{
+    max-width: 1520px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: white;
+    color: black;
+}
+
+.título
+{
+    font-size: 19px;
+    color: rgb(138, 237, 210);
+}
+
+fieldset
+{
+    margin: 50px;
+    margin-inline: 80px;
+    border: 2px solid rgb(138, 237, 210);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(138, 237, 210);
+}
+
+.cabeçalho
+{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 330px;
+    color: white;
+}
+
+.texto-principal
+{
+    margin: 50px 0;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    margin-inline: 90px;
+    width: 700px;
+    box-shadow: 0 0 5px rgb(255, 253, 253);
+}
+
+.texto
+{
+    margin: 10px 0;
+    letter-spacing: 1.5px;
+}
+
+.fonte
+{
+    transition: all 0.5s;
+    font-style: oblique;
+    color: black;
+}
+
+.fonte:hover
+{
+    transition: all 0.5s;
+    color: darkblue;
+}
+
+footer
+{
+    margin: 50px ;
+    color: rgb(81, 200, 168);
+    text-align: center;
+    letter-spacing: 1.3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

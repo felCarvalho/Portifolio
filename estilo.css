@@ -1,0 +1,244 @@
+/*comandos usados para zerar todas as margens/paddings do HTML que sáo pré-carregadas*/
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+/*tags usadas para redimensionar as imagens de logo/redes sociais*/
+
+.logo
+{
+    width: 100px;
+    height: 100px;
+}
+
+.redes-socias
+{
+    width: 70px;
+    height: 70px;
+}
+
+/*personalize os links com cores/animações bonitinhas*/
+
+.links-alternativos
+{
+    transition: all 0.5s;
+}
+
+.links-alternativos:hover
+{
+    color: darkblue;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.links-alternativos:active
+{
+    color: darkblue;
+}
+
+/*tags necessárias que afetam todo o comportamento do conteúdo da pág*/
+
+body
+{
+    max-width: 1520px;
+    color: black;
+    background-color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/*estilização das bordas laterais diretamente com a tag fieldset*/
+
+.fildset-completo
+{
+    margin: 60px;
+    box-shadow: 0 0 5px rgb(138, 237, 210);;
+    border: none;
+    border: 2px solid rgb(138, 237, 210);
+    border-radius: 20px;
+}
+
+/*formatando o cabeçalho da pág com display:flex/demais tags necessárias*/
+
+.cabeçalho
+{
+    margin: 50px 0;
+    margin-inline: 100px;
+    background-color: azure;
+    box-shadow: 0 0 10px rgb(138, 237, 210);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+}
+
+/*formatando conteudo primário da pág com display:flex/demais tags necessárias*/
+
+.sobre-Felipe
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: azure;
+    box-shadow: 0 0 10px rgb(138, 237, 210);
+    margin-inline: 100px;
+    padding: 30px;
+    border-radius: 20px;
+    letter-spacing: 1.3px;
+}
+
+/*personalizando o tammanho do paragrafo com width*/
+
+.paragrafo
+{
+    width: 60vw;
+}
+
+/*personalize os links com cores/animações bonitinhas*/
+
+.links-principais
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.links-pag
+{
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+    font-family: cursive;
+}
+
+.links-pag:hover
+{
+    color: darkblue;
+    transition: all 0.5s;
+}
+
+.obs
+{
+    font-style: oblique;
+    font-family:monospace;
+}
+
+/*tags usadas para redimensionar as imagens dentro do background que mostram uma pré-visualização do conteúdo*/
+
+.projetos
+{
+    background-color: azure;
+    box-shadow: 0 0 10px rgb(138, 237, 210);
+    border-radius: 20px;
+    padding: 20px 40px;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+
+/*estilizando o conteúdo do meio onde fica localizado a área de projetos centrais do portifólio*/
+
+.sobre-projetos
+{
+    margin-top: 70px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    text-align: center;
+}
+/*formatando o posicionamento da area de inoformaçóes*/
+
+.informações
+{
+    margin-top: 70px;
+    background-color: azure;
+    box-shadow: 0 0 10px rgb(138, 237, 210);
+    border-radius: 10px;
+    padding: 20px;
+    margin-inline: 100px;
+}
+
+/*todas as class e comandos abaixos são do ultimo background e apenas de leve modificações, isso inclui até meso a área de footer*/
+
+.finalização-sobre-mim
+{
+    margin-inline: 96px;
+    letter-spacing: 1.3px;
+}
+
+/*personalização sobre o link de contato*/
+
+.Contato
+{
+    margin-top: 5px;
+    margin-inline: 96px;
+    font-style: oblique;
+    color: darkblue;
+}
+
+/*estilização sobre localização*/
+
+.Localidade
+{
+    margin-top: 5px;
+    margin-inline: 96px;
+}
+
+/*estilização sobre endereço*/
+
+.link-endereço
+{
+    font-style: oblique;
+    color: darkblue;
+}
+
+/*estilização sobre data do portifolio*/
+
+.data-portifolio
+{
+    margin-top: 20px;
+    margin-inline: 96px;
+}
+
+.criação-portifolio
+{
+    font-style: oblique;
+}
+
+/*estilização sobre a publicação do portifolio*/
+
+.publicação
+{
+    margin-top: 5px;
+    margin-inline: 96px;
+}
+
+.data-publicação
+{
+    font-style: oblique;
+}
+ 
+/*estilização sobre o posicionamento do footer e créditos*/
+
+footer
+{
+    color: rgb(81, 200, 168);
+    margin: 50px ;
+    text-align: center;
+    letter-spacing: 1.3px;
+}
+
+.créditos
+{
+    margin-top: 5px;
+}
+ 
